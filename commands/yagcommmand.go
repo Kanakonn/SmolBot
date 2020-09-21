@@ -60,15 +60,15 @@ var (
 		HelpEmoji:   "🎌",
 		EmbedColor:  0x5ae26c,
 	}
-	CategoryAnimeLewd = &dcmd.Category{
+	CategoryLewdAnime = &dcmd.Category{
 		Name:        "Anime Lewd (1)",
-		Description: "Various commands to fetch NSFW anime images from the nekos.life API",
+		Description: "Various commands to fetch NSFW (questionable level) anime images from Danbooru",
 		HelpEmoji:   "🎌",
 		EmbedColor:  0x5ae26c,
 	}
-	CategoryAnimeLewd2 = &dcmd.Category{
+	CategoryLewdAnime2 = &dcmd.Category{
 		Name:        "Anime Lewd (2)",
-		Description: "Various commands to fetch NSFW anime images from the nekos.life API",
+		Description: "Various commands to fetch NSFW (explicit level) anime images from Danbooru",
 		HelpEmoji:   "🎌",
 		EmbedColor:  0x5ae26c,
 	}

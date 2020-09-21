@@ -18,6 +18,7 @@ import (
 	"github.com/jonas747/yagpdb/automod"
 	"github.com/jonas747/yagpdb/automod_legacy"
 	"github.com/jonas747/yagpdb/autorole"
+	"github.com/jonas747/yagpdb/anilewds"
 	"github.com/jonas747/yagpdb/aylien"
 	"github.com/jonas747/yagpdb/cah"
 	"github.com/jonas747/yagpdb/commands"
@@ -91,6 +92,7 @@ func main() {
 	prom.RegisterPlugin()
 	featureflags.RegisterPlugin()
 	nekoslife.RegisterPlugin()
+	anilewds.RegisterPlugin()
 
 	run.Run()
 }
